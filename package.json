@@ -1,0 +1,43 @@
+{
+  "name": "@guivic/eslint-config-guivic",
+  "version": "0.2.0",
+  "description": "Offical Guivic javascript norm that extends the Airbnb style.",
+  "main": "main.js",
+  "files": [
+    "main.js",
+    ".eslintrc.json"
+  ],
+  "scripts": {
+    "prepublish": "safe-publish-latest || (npm test && eslint-find-rules --unused)",
+    "lint": "eslint . --env node",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lludol/eslint-config.git"
+  },
+  "keywords": [
+    "guivic",
+    "estlint-config",
+    "estlint-config-guivic",
+    "guivic-eslint-config"
+  ],
+  "author": "lludol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guivic/eslint-config/issues"
+  },
+  "homepage": "https://github.com/guivic/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^5.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-find-rules": "^3.3.1",
+    "safe-publish-latest": "^1.1.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
