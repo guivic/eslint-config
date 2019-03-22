@@ -3,7 +3,7 @@
 [![dependencies status](https://david-dm.org/guivic/eslint-config/status.svg)](https://david-dm.org/guivic/eslint-config#info=dependencies)
 [![dev-dependencies status](https://david-dm.org/guivic/eslint-config/dev-status.svg)](https://david-dm.org/guivic/eslint-config#info=devDependencies)
 [![Build Status](https://travis-ci.org/guivic/eslint-config.svg?branch=master)](https://travis-ci.org/guivic/eslint-config)
-[![npm version](https://badge.fury.io/js/eslint-config-guivic.svg)](https://badge.fury.io/js/eslint-config-guivic)
+[![npm version](https://badge.fury.io/js/%40guivic%2Feslint-config-guivic.svg)](https://badge.fury.io/js/%40guivic%2Feslint-config-guivic)
 
 Offical Guivic javascript norm that extends the Airbnb style.
 
