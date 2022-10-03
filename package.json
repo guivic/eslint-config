@@ -1,6 +1,6 @@
 {
   "name": "@guivic/eslint-config-guivic",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "Offical Guivic javascript norm that extends the Airbnb style.",
   "main": "main.js",
   "files": [
