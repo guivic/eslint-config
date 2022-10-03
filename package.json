@@ -29,15 +29,15 @@
   },
   "homepage": "https://github.com/guivic/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^5.14.1"
+    "eslint": "8.x"
   },
   "devDependencies": {
-    "eslint": "^8.2.0",
-    "eslint-find-rules": "^4.0.0",
+    "eslint": "^8.24.0",
+    "eslint-find-rules": "^4.1.0",
     "safe-publish-latest": "^2.0.0"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.3"
+    "eslint-plugin-import": "^2.26.0"
   }
 }
